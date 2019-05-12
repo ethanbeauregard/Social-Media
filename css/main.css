@@ -105,7 +105,7 @@ header .search-area ul li {
 /* top area */
 #top-area {
  padding: 200px 15px 90px 15px;
- background: url("https://wallpapershome.com/images/pages/ico_h/12771.jpg");
+ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://slavanazdarvyletu.cz/wp-content/uploads/2017/11/morning-yosemite-3840x2400-1200x750.jpg');
  background-position: center center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -184,6 +184,10 @@ header .search-area ul li {
  display: inline-block;
 }
 
+#content-area .widget-box .head .widget-icon-container .fa-user-friends{
+ margin: 0 4px 0 0;
+} 
+
 #content-area .widget-box .head .widget-icon {
  background: #BFBFBF;
  height: 40px;
@@ -204,8 +208,14 @@ header .search-area ul li {
  display: inline-block;
 }
 
-#content-area .widget-box .head .arrow-icon .end{
+#content-area .widget-box.photos .head .arrow-icon .end{
  width: 235px;
+ display: flex;
+ justify-content: flex-end;
+}
+
+#content-area .widget-box.friends .head .arrow-icon .end{
+ width: 168px;
  display: flex;
  justify-content: flex-end;
 }
@@ -223,6 +233,37 @@ header .search-area ul li {
 
 #content-area .widget-box .body {
  padding: 15px 0;
+}
+
+#content-area .widget-box .body .pencil-icon-container{
+ padding-bottom: 18px;
+}
+
+#content-area .widget-box .body .pencil-icon-container h6 {
+ display: inline-block;
+}
+
+#content-area .widget-box .body .pencil-icon-container .fas {
+ color: #ABABAB;
+ display: inline-block;
+ float: right;
+}
+
+#content-area .widget-box.intro .body p {
+ color: #ABABAB;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-size: 16px;
+}
+
+#content-area .widget-box.intro .body .lastP{
+ padding-bottom: 18px;
+}
+
+#content-area .widget-box.intro .body a{
+ text-transform: uppercase;
+ font-weight: 600;
+ letter-spacing: 1px;
 }
 
 /* main area */
@@ -245,6 +286,7 @@ header .search-area ul li {
  text-align: center;
  border-bottom: 3px solid #fff;
  transition: all .4s ease-in-out;
+ color: #ABABAB;
 }
 
 #content-area .main-area .submenu ul li:nth-child(5) {
@@ -258,7 +300,7 @@ header .search-area ul li {
 }
 
 #content-area .main-area .submenu ul li .fas {
- color: #000;
+ color: #ABABAB;
  font-size: 20px;
  transition: all .4s ease-in-out;
 }
@@ -283,7 +325,7 @@ header .search-area ul li {
 #content-area .main-area .widget-box.post .head .user-img {
  display: inline-block;
  float: left;
- background: url("https://makehimyours.com.au/wp-content/uploads/2016/11/Depositphotos_9830876_l-2015Optimised.jpg");
+ background: url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/p160x160/37177584_1741578725920208_5840252883643138048_n.jpg?_nc_cat=111&_nc_ht=scontent-iad3-1.xx&oh=87a014bd431d25ab090627253a0cc770&oe=5D69966F");
  background-position: center center;
  background-size: cover;
  background-repeat: no-repeat;
