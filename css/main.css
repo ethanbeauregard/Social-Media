@@ -102,6 +102,12 @@ header .search-area ul li {
  display: inline-block;
 }
 
+header .search-area ul li input{
+ border: none;
+ background: transparent;
+ border-bottom: 1px solid #fff;
+}
+
 /* top area */
 #top-area {
  padding: 200px 15px 90px 15px;
